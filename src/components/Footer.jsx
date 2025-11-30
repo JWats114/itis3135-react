@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 
 function Footer() {
     useEffect(() => {
-        // Update validation links with current URL
         const htmlValidator = document.getElementById("validation_link_html");
         const cssValidator = document.getElementById("validation_link_css");
         

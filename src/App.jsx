@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Introduction from './pages/Introduction';
-import Contract from './pages/Contract';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Home from './Pages/Home.jsx';
+import Introduction from './Pages/Introduction.jsx';
+import Contract from './Pages/Contract.jsx';
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App wrapper"> {/* Add wrapper class here */}
+      <div className="App">
         <Header />
         <main>
           <Routes>
